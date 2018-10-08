@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: dev
+---
+
+spring:
+  application:
+    name: spring-cloud-eureka-config-4404
+  profiles: dev
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:4404/eureka
+    register-with-eureka: false
+    fetch-registry: false
