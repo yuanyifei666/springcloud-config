@@ -35,3 +35,8 @@ eureka:
 #endpoints:
 #  info:
 #    enabled: true
+info:
+    username: yuanyifei
+    password: 123456
+    gander: 男
+    description: 使用springcloud config来统一管理微服务的配置文件
