@@ -6,6 +6,9 @@ spring:
   profiles: dev
   application:
     name: spring-cloud-config-4403-dev
+info:
+  username: yuan
+  email: 2570837397@qq.com
 ---
 spring:
   profiles: prod
