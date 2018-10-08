@@ -30,7 +30,7 @@ eureka:
       defaultZone: http://localhost:4404/eureka #eureka的服务地址
   instance:
     prefer-ip-address: true
-    instance-id: spring-cloud-provider-8081 #定义服务的名称
+    instance-id: spring-cloud-provider-config-4405 #定义服务的名称
 
 #endpoints:
 #  info:
